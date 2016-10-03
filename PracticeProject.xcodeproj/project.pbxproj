@@ -12,6 +12,7 @@
 		24E8BE081DA2967D00E90526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E8BE061DA2967D00E90526 /* Main.storyboard */; };
 		24E8BE0A1DA2967D00E90526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E8BE091DA2967D00E90526 /* Assets.xcassets */; };
 		24E8BE0D1DA2967D00E90526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E8BE0B1DA2967D00E90526 /* LaunchScreen.storyboard */; };
+		24E8BE171DA2999500E90526 /* updatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8BE161DA2999500E90526 /* updatedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		24E8BE091DA2967D00E90526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24E8BE0C1DA2967D00E90526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24E8BE0E1DA2967D00E90526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E8BE161DA2999500E90526 /* updatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = updatedViewController.swift; path = "untitled folder/updatedViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				24E8BE041DA2967D00E90526 /* ViewController.swift */,
 				24E8BE021DA2967D00E90526 /* AppDelegate.swift */,
+				24E8BE161DA2999500E90526 /* updatedViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				24E8BE051DA2967D00E90526 /* ViewController.swift in Sources */,
 				24E8BE031DA2967D00E90526 /* AppDelegate.swift in Sources */,
+				24E8BE171DA2999500E90526 /* updatedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

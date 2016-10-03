@@ -22,5 +22,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Updated View Controller-->
+        <scene sceneID="H8J-DV-Rrr">
+            <objects>
+                <viewController id="2oY-H9-CzF" customClass="updatedViewController" customModule="PracticeProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vl7-l0-m4z"/>
+                        <viewControllerLayoutGuide type="bottom" id="ObP-RY-sjp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Hd-X3-chg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KUA-1A-gtW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1406" y="425"/>
+        </scene>
     </scenes>
 </document>
