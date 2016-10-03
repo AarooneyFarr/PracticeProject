@@ -8,9 +8,11 @@
 
 import UIKit
 
-class updatedViewController: UIViewController{
+class updatedViewController: UIViewController
+{
     
-    override func viewDidload(){
+    override func viewDidload()
+    {
         super.viewDidLoad()
         //load this pages components.
     }
