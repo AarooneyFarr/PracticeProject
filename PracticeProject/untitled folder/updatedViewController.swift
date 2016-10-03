@@ -10,10 +10,20 @@ import UIKit
 
 class updatedViewController: UIViewController
 {
+    @IBOutlet private weak var topImage: UIImageView!
+    @IBOutlet private weak var bottomImage: UIImageView!
     
-    override func viewDidload()
-    {
+    
+    override func viewDidLoad() {
         super.viewDidLoad()
-        //load this pages components.
+        // Do any additional setup after loading the view, typically from a nib.
+        bottomImage.image = UIImage(named: "rndm2")
+        
+        
+    }
+    
+    @IBAction func changeScreenToMain(sender: UIButton) {
+        
+        performSegueWithIdentifier("toMainFromUpdated", sender:sender)
     }
 }

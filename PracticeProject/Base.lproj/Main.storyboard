@@ -21,7 +21,8 @@
                                 <rect key="frame" x="227" y="285" width="147" height="30"/>
                                 <state key="normal" title="ChangeScreenButton"/>
                                 <connections>
-                                    <segue destination="2oY-H9-CzF" kind="show" identifier="toUpdated" id="3tG-Dc-qgg"/>
+                                    <action selector="switchScreenToUpdated:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QPi-SZ-ylT"/>
+                                    <segue destination="2oY-H9-CzF" kind="show" identifier="toUpdatedFromMain" id="3tG-Dc-qgg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,12 +43,35 @@
                     <view key="view" contentMode="scaleToFill" id="8Hd-X3-chg">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfG-1r-Uoj">
+                                <rect key="frame" x="222" y="285" width="156" height="30"/>
+                                <state key="normal" title="ChangeScreenButton2"/>
+                                <connections>
+                                    <action selector="changeScreenToMain:" destination="2oY-H9-CzF" eventType="touchUpInside" id="nJL-rs-0Ah"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="toMainFromUpdated" id="CFJ-DF-h20"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="randomScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="i9l-ra-bJO">
+                                <rect key="frame" x="180" y="82" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jpf-1U-owH">
+                                <rect key="frame" x="180" y="376" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="bottomImage" destination="jpf-1U-owH" id="kOc-jF-hQG"/>
+                        <outlet property="topImage" destination="i9l-ra-bJO" id="1Nh-es-KcK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KUA-1A-gtW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1236" y="429"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="randomScreenshot" width="1024" height="768"/>
+    </resources>
 </document>
